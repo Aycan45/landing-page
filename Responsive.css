@@ -1,0 +1,347 @@
+@media screen and (max-width: 1280px) and (min-width: 1024px){
+	header{
+		width: 143%;
+	}
+	.header-image{
+		height: 500px;
+	}
+	li a{
+		font-size: 30px;
+		padding: 10px 10px;
+	}
+	#logo{
+		height: 50px;
+		width: 100px;
+		padding: 3px;
+	}
+	.welcome{
+		font-size: 50px;
+		top: 22%;
+		left: 60%;
+		transform: translate(-25%, -25%);
+	}
+	article{
+		height: fit-content;
+		width: 143%;
+	}
+	.image{
+		float: left;
+		width: 51.5%;
+	}
+	.overlay{
+		left: 4.5%;
+		top: 7%;
+	}
+	.image-type{
+		margin: 10px;
+	}
+	img{
+		width: 100%;
+		height: 587px;
+	}
+	#blog {
+      height: fit-content;
+      padding-bottom: 20%;
+	}
+	.card{
+		margin: 15px;
+    	width: 59.9%;
+    	margin-bottom: 50px;
+	}
+	.button-link{
+		margin: 0; 
+		padding: 10px;
+		box-shadow: 0px 9px 7px rgb(37 39 40);
+	}
+	.button {
+	    padding: 20px;
+	}
+	input{
+		width: 40%;
+	}
+	footer{
+		width: 143%;
+	}
+}
+@media screen and (max-width: 1024px) and (min-width: 768px){
+	header{
+		width: 143%;
+	}
+	.header-image{
+		height: 500px;
+	}
+	li a{
+		font-size: 25px;
+		padding: 7px 8px;
+	}
+	#logo{
+		height: 50px;
+		width: 100px;
+		padding: 3px;
+	}
+	.welcome{
+		font-size: 50px;
+		top: 22%;
+		left: 60%;
+		transform: translate(-25%, -25%);
+	}
+	article{
+		height: fit-content;
+		width: 143%;
+	}
+	.image{
+		float: left;
+		width: 51.5%;
+	}
+	.image-type{
+		margin: 9px;
+	}
+	img{
+		width: 100%;
+		height: 587px;
+	}
+	#blog {
+      height: fit-content;
+      padding-bottom: 20%;
+	}
+	.card{
+		margin: 15px;
+    	width: 59.9%;
+	}
+	.button-link{
+		margin: 0; 
+		padding: 10px;
+		box-shadow: 0px 9px 7px rgb(37 39 40);
+	}
+	.button {
+	    margin-left: 40%;
+	    padding: 20px;
+	    margin-top: 10px;
+	}
+	footer{
+		width: 143%;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px){
+	.header-image{
+		width: 100%;
+		height: 270px;
+	}
+	li a{
+		font-size: 15px;
+		padding: 7px 4px;
+	}
+	#logo{
+		height: 50px;
+		width: 100px;
+		padding: 3px;
+	}
+	.welcome{
+		font-size: 30px;
+		top: 15%;
+		left: 35%;
+		transform: translate(-25%, -25%);
+	}
+	article{
+		height: fit-content;
+	}
+	.row{
+		flex-direction: column;
+	}
+	img{
+		width: 100%;
+		height: 350px;
+	}
+	.image{
+		float: left;
+		width: 100%;
+	}
+	#about{
+		background-color: #ffda05;
+		height: fit-content;
+	}
+	#transport{
+		height: fit-content;
+	}
+	.text{
+		float: none;
+		width: 90%;
+		font-size: 18px;
+		text-align: center;
+		padding-left: 20px;
+		padding-bottom: 100px;
+	}
+	.text .head1{
+		font-size: 25px; 
+	}
+	.button-link{
+		margin: 0; 
+		padding: 10px;
+		box-shadow: 0px 9px 7px rgb(37 39 40);
+		font-size: small;
+	}
+	#storage{
+		height: fit-content;
+	}
+	.image-transport{
+		float: left;
+		width: 100%;
+		height: 320px;
+	}
+	#types-of-transport {
+    	height: fit-content;
+	}
+	.image-type{
+	    margin-left: 70%;
+	}
+	.overlay {
+	    left: 72%;
+	    height: 202px;
+	}
+	.image-storage {
+	    float: left;
+	    width: 100%;
+	    height: 300px;
+	}
+	.image-containers {
+    	float: right;
+    	width: 100%;
+    	height: 300px;
+	}
+	#blog {
+      height: inherit;
+      padding-bottom: 20%;
+	}
+	#containers{
+		height: inherit;
+	}
+	.card {
+	    margin-left: 25%;
+	    margin-top: 20px;
+	    width: 50%;
+	}
+	.button {
+	    margin-left: 40%;
+	    padding: 20px;
+	}
+	input{
+    	width: 60%;
+    	padding: 8px;
+	}
+}
+
+@media screen and (max-width: 480px) and (min-width: 200px){
+	body{
+		width: 100%;
+	}
+	#logo{
+		height: 30px;
+		width: 80px;
+		padding: 3px;
+	}
+	ul{
+		width: 100%;
+	}
+	li a{
+		font-size: 8px;
+		padding: 7px 4px;
+	}
+	.header-image{
+		width: 100%;
+		height: 200px;
+	}
+	.welcome{
+		font-size: 25px;
+		top: 9%;
+		left: 35%;
+		transform: translate(-25%, -25%);
+	}
+	.row{
+		flex-direction: column;
+	}
+	img{
+		width: 100%;
+	}
+	.image{
+		float: left;
+		width: 100%;
+	}
+	article{
+		height: fit-content;
+	}
+	#about{
+		background-color: #ffda05;
+		height: fit-content;
+	}
+	.text{
+		float: none;
+		width: 90%;
+		font-size: 13px;
+		text-align: center;
+		padding: 20px;
+	}
+	.text .head1{
+		font-size: 25px; 
+	}
+	.button-link{
+		margin: 0; 
+		padding: 8px;
+		box-shadow: 0px 9px 7px rgb(37 39 40);
+		font-size: small;
+	}
+	.image-transport{
+		float: left;
+		width: 100%;
+		height: 320px;
+	}
+	#types-of-transport {
+    	background-color: #8308ff;
+    	height: fit-content;
+	}
+	.head{
+		font-size: 25px;
+	}
+	.image-type{
+		width: 201px;
+	    height: 150px;
+	    margin-left: 50%;
+  		margin-right: 50%;
+	}
+	.overlay {
+	    top: 16%;
+	    left: 52.5%;
+	    height: 150px;
+	    width: 204px;
+	}
+	.image-storage {
+	    float: left;
+	    width: 100%;
+	    height: 300px;
+	}
+	.image-containers {
+    	float: right;
+    	width: 100%;
+    	height: 300px;
+	}
+	#blog {
+      height: inherit;
+      padding-bottom: 20%;
+	}
+	.card {
+	    margin: 25%;
+	    margin-top: 20px;
+	    width: 50%;
+	}
+	.button {
+	    margin-left: 32%;
+	    padding: 10px;
+	}
+	.head1 {
+    	font-size: 30px;
+	}
+	input{
+    	width: 60%;
+    	padding: 8px;
+	}
+}

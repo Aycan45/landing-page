@@ -1,0 +1,295 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+header{
+	margin: 0;
+	padding: 0;
+	background-color: #ffda05;
+}
+
+.welcome{
+	text-align: center;
+	color: #553ac9;
+	text-shadow: 2px 4px 3px #000000;
+	font-size: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.header-image{
+	width: 100%;
+	height: 700px;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d9c007;
+  position: sticky;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #bdab28;
+}
+
+#logo{
+	height: 50px;
+	width: 120px;
+	padding: 2px;
+}
+#about{
+	background-color: #ffda05;
+	height: 583px;
+}
+.image{
+	float: left;
+	width: 50%;
+	margin-top: -4px;
+}
+.text{
+	float: right;
+	width: 46%;
+	font-size: 25px;
+	color: #553ac9;
+}
+.text .head1{
+	font-size: 50px; 
+}
+
+.button-link{
+	margin: 100px;
+	text-decoration: none;
+	border: 1px solid orange;
+	padding: 15px;
+	text-align: center;
+	font-weight: bold;
+	color: #553ac9;
+	background-color: orange;
+	border-radius: 20px;
+	box-shadow: 0px 15px 20px rgba(37, 39, 40);
+}
+
+.button-link:hover {
+  background-color: #bdab28;
+}
+
+#transport{
+	background-color: #ffbb00;
+	height: 587px;
+}
+
+.image-transport{
+	width: 48.5%;
+	height: 587px;
+	margin: 0;
+	float: right;
+}
+
+#types-of-transport{
+	background-color: #8308ff;
+	height: 650px;
+}
+
+.head{
+	font-size: 50px;
+	text-align: center;
+	margin: 0;
+	color: #edb32b;
+	padding-top: 20px;
+}
+
+.row{
+	display: flex;
+}
+
+.image-type{
+	width: 200px;
+	height: 200px;
+	margin: 30px;
+	border: 8px solid white;
+	border-radius: 20px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 13%;
+  bottom: 13%;
+  left: 12.5%;
+  right: 13%;
+  height: 200px;
+  width: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffb300;
+  border-radius: 10px;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.text-hover {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#storage{
+	height: 587px;
+	background-color: #e6b720;
+}
+.image-storage{
+	float: left;
+	width: 50%;
+	height: 587px;
+}
+
+#containers{
+	height: 587px;
+	background-color: #e0ca00;
+}
+
+.image-containers{
+	float: right;
+	width: 50%;
+	height: 587px;
+}
+
+#blog{
+	background-color: #8308ff;
+	height: 700px;
+}
+
+.card{
+	background-color: white;
+	margin: 50px;
+	width: 18.9%;
+	border-radius: 20px;
+}
+
+.card-text{
+	padding: 10px;
+}
+
+.card-text a{
+	text-decoration: none;
+}
+
+.card img{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	width: 100%;
+	height: 35%;
+}
+
+.card h3{
+	font-weight: bolder;
+}
+
+.button{
+	margin-left: 45%;
+	border: 1px solid orange;
+	border-radius: 50px;
+	background-color: orange;
+	color: purple;
+	text-decoration: none;
+	padding: 20px;
+	font-weight: bold;
+	box-shadow: 0px 15px 20px rgba(37, 39, 40);
+}
+
+.button:hover{
+	background-color: #bdab28;
+}
+
+#contact{
+	background-color: #e0ca00;
+	text-align: center;
+}
+.head1{
+	font-size: 40px;
+	color: #553ac9;
+	margin: 0;
+	padding-top: 20px;
+}
+form{
+    flex-grow: 1;
+	display: inline-block;
+  	direction: column;
+  	width: 50%;
+  	align-content: center;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+input{
+	width: 30%;
+	padding: 10px;
+	border-radius: 20px;
+	margin: 10px;
+}
+
+form button{
+	width: 15%;
+	border-radius: 20px;
+	margin: 5px;
+	background-color: #8308ff;
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bolder;
+	color: #e0ca00;
+}
+
+footer{
+	width: 100%;
+	background-color: #8308ff;
+	color: #553ac9;
+}
+
+footer p{
+	font-weight: bolder;
+	text-align: center;
+	margin: 0;
+	color: black;
+}
